@@ -14,20 +14,18 @@ body {
     color: #222;
 }
 
-
 header {
     background-color: #172554;
     color: white;
-    padding: 30px;
+    padding: 25px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 header h1 {
-    margin-bottom: 20px;
-    font-size: 32px;
+    margin-bottom: 15px;
+    font-size: 30px;
 }
-
 
 .menu {
     display: flex;
@@ -35,16 +33,15 @@ header h1 {
     justify-content: space-evenly;
     align-items: center;
     background-color: #1e40af;
-    padding: 15px;
+    padding: 12px;
     border-radius: 8px;
 }
 
 .menu a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 8px 12px;
     border-radius: 5px;
-    transition: 0.3s;
 }
 
 .menu a:hover {
@@ -52,55 +49,48 @@ header h1 {
     color: #172554;
 }
 
-
 .apresentacao {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
-    padding: 35px;
-    margin: 30px auto;
-    max-width: 1100px;
+    gap: 25px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1000px;
     background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
 }
 
 .apresentacao-texto {
     flex: 1;
-    text-align: left;
 }
 
 .apresentacao-texto h2 {
     color: #1e40af;
-    margin-bottom: 15px;
-    font-size: 26px;
+    margin-bottom: 12px;
+    font-size: 24px;
 }
 
 .apresentacao-texto p {
-    line-height: 1.6;
-    margin-bottom: 12px;
-    color: #334155;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
 
 .apresentacao-img {
-    width: 380px;
+    width: 350px;
     max-width: 45%;
-    height: 240px;
+    height: 220px;
     object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
 }
-
 
 section h2 {
     text-align: center;
     color: #172554;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
-
 
 #destaques {
     margin: 30px 20px;
@@ -126,7 +116,7 @@ section h2 {
 
 .card h3 {
     color: #1e40af;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .card img {
@@ -138,8 +128,9 @@ section h2 {
 }
 
 .card p {
-    line-height: 1.5;
+    line-height: 1.4;
     margin-bottom: 15px;
+    font-size: 14px;
 }
 
 .btn-saiba-mais {
@@ -147,8 +138,9 @@ section h2 {
     background-color: #1e40af;
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 8px 12px;
     border-radius: 5px;
+    font-size: 14px;
 }
 
 .btn-saiba-mais:hover {
@@ -156,23 +148,21 @@ section h2 {
     color: #172554;
 }
 
-
 .etiqueta-destaque {
     position: absolute;
     top: 8px;
     right: 8px;
     background-color: #ef4444;
     color: white;
-    padding: 5px 8px;
-    border-radius: 5px;
+    padding: 4px 8px;
+    border-radius: 4px;
     font-size: 11px;
     font-weight: bold;
 }
 
-
 #programacao {
     background-color: white;
-    padding: 30px;
+    padding: 25px;
     margin: 30px 20px;
     border-radius: 10px;
 }
@@ -183,22 +173,21 @@ section h2 {
     justify-content: space-between;
     align-items: center;
     gap: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .bloco-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
     background-color: #dbeafe;
     border: 2px solid #1e40af;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     flex: 1;
     text-align: center;
 }
-
 
 table {
     width: 100%;
@@ -208,7 +197,7 @@ table {
 
 th, td {
     border: 1px solid #1e40af;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -223,28 +212,27 @@ tr:nth-child(even) {
 
 #contato {
     background-color: white;
-    padding: 30px;
+    padding: 25px;
     margin: 30px 20px;
     border-radius: 10px;
     text-align: center;
 }
 
 #contato p {
-    line-height: 1.6;
+    line-height: 1.5;
+    margin-bottom: 5px;
 }
-
 
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background-color: #172554;
     color: white;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
 }
-
 
 .voltar-topo {
     position: fixed;
@@ -253,9 +241,9 @@ footer {
     background-color: #1e40af;
     color: white;
     text-decoration: none;
-    padding: 12px 15px;
+    padding: 10px 14px;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .voltar-topo:hover {
@@ -263,18 +251,11 @@ footer {
     color: #172554;
 }
 
-
 @media (max-width: 700px) {
-
     .apresentacao {
         flex-direction: column;
         text-align: center;
         margin: 20px;
-        padding: 25px 20px;
-    }
-
-    .apresentacao-texto {
-        text-align: center;
     }
 
     .apresentacao-img {
@@ -301,7 +282,6 @@ footer {
     }
 
     th, td {
-        padding: 8px;
+        padding: 6px;
     }
-
 }
